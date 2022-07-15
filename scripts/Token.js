@@ -1,4 +1,3 @@
-const { ethers } = require("hardhat");
 
 async function main(){
     const[delployer] =await ethers.getSigner();
